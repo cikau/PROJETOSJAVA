@@ -11,16 +11,16 @@ public class ContaTerminal {
     double saldo;
     */
 
-public static void main(String[] args) {
+public static void main(String[] args) throws Exception {
 //criando o objeto Scanner:
-Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
 
     double saldo = 300.65;
 
     System.out.println("Olá! Boas vindas ao Banco X!");
 
     System.out.println("Por favor, informe o seu nome completo: ");
-    String nome = scanner.next();
+    String nome = scanner.nextLine(); //o .nextLine pode capturar mais de uma palavra
 
     System.out.println("Agora, informe os quatro dígitos da sua agência: ");
     int agencia = scanner.nextInt();
@@ -30,6 +30,6 @@ Scanner scanner = new Scanner(System.in);
 
     System.out.println("Olá, " + nome + ", " + "obrigado por criar uma conta em nosso banco!" + "\nSua agência é " + agencia + " e a sua conta é " + numeroConta + "." + "\nSeu saldo no valor de " + saldo + " já está disponível para saque.");
 
+    scanner.close(); //para evitar vazamento de informações
     }
-
 }
