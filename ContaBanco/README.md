@@ -1,7 +1,7 @@
 
 # DESAFIOS EM JAVA - DIO
 O presente repositório contém as atividades e projetos propostos na trilha de aprendizagem de Java básico, pela **Digital Innovation One (DIO)**.
-Neste projeto, exercitou-se a sintaxe em Java, por meio da criação de um programa que simulasse uma conta bancária. O projeto, intitulado de "ContaBanco", possui uma classe ContaTerminal.java, na qual foi realizada toda a condificação do programa.
+Neste projeto, exercitou-se a sintaxe em Java, por meio da criação de um programa que simulasse uma conta bancária. O projeto, intitulado de "ContaBanco", possui uma classe ContaTerminal.java, na qual foi realizada toda a codificação do programa.
 
 ## SOBRE JAVA 💻
 
